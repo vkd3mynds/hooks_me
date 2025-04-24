@@ -118,3 +118,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+.custom-focus:focus,
+.custom-focus:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
